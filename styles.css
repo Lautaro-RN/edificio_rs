@@ -1,0 +1,66 @@
+html{font-size:100%;}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'League Spartan', sans-serif;
+	line-height: 1.2;
+}
+
+header, section, footer {
+	width: 100%;
+	margin: auto;
+}
+	
+#header {
+height: 126px;
+background-color: orangered;
+}
+	#img_logo { /*logo desbordado hacia abajo*/
+		height: 100px;
+		float: left;
+		background-color: rgba(225, 0, 0, 1.0);
+	}
+
+#nosotros{}	
+	#fotos_entrada{
+		background: darkseagreen;
+		padding:1px 0px 5px;
+	}
+		.sty_img_box{
+			width: 300px; height: 300px;
+			margin: 25px auto;
+		}
+			.img_pres{ 	}
+				#img1{
+					background:darkseagreen;
+					background-image: url(imgs/foto1_s.jpg);
+				}
+				#img2{
+					background:darkseagreen;
+					background-image: url(imgs/foto2_s.jpg)
+				}
+			#txt_present{ background-color: skyblue; }
+
+#servicios{background:greenyellow;}
+	.img_servicios{
+    background-color: dimgrey;
+    height: 240px;
+	}
+		#deps{background-image: url(imgs/depto-s.jpg);}
+		#cochs{background-image: url(imgs/cochera-s.jpg);}
+		#local{background-image: url(imgs/local-s.jpg);}
+
+#ubicacion{background: palevioletred;}
+	#mapa{width:100%;}
+	#distancias{width:96%;margin:auto}
+
+#pie{background:orange;}
+
+
+
+@media all and (min-width: 800px) {
+
+	header, section, footer {width: 96%;}
+	
+}
