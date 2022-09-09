@@ -11,27 +11,27 @@ header, section, footer {
 	width: 100%;
 	margin: auto;
 }
+
+.padding{padding:50px 5%;}
 	
 #header {
 height: 126px;
 background-color: orangered;
 }
-	#img_logo { /*logo desbordado hacia abajo*/
+	#img_logo {
 		height: 100px;
 		float: left;
 		background-color: rgba(225, 0, 0, 1.0);
 	}
 
-#nosotros{}	
-	#fotos_entrada{
-		background: darkseagreen;
-		padding:1px 0px 5px;
-	}
+#nosotros{background: darkseagreen;}	
+	#fotos_entrada{}
 		.sty_img_box{
-			width: 300px; height: 300px;
+			width: 300px;
+			height: 300px;
 			margin: 25px auto;
 		}
-			.img_pres{ 	}
+			.img_pres{}
 				#img1{
 					background:darkseagreen;
 					background-image: url(imgs/foto1_s.jpg);
@@ -40,22 +40,39 @@ background-color: orangered;
 					background:darkseagreen;
 					background-image: url(imgs/foto2_s.jpg)
 				}
-			#txt_present{ background-color: skyblue; }
+			#txt_present{
+				background-color:darkseagreen;
+				padding:10%;
+				margin-bottom:0px;
+			}
 
 #servicios{background:greenyellow;}
-	.img_servicios{
-    background-color: dimgrey;
-    height: 240px;
+	#deps{margin: 20px auto;}
+	#cochs{margin: 0px auto 20px;}
+	#local{margin: 20px auto;}
+		.img_servicios{
+	    background-color: dimgrey;
+	    height:240px;
+		}
+			#img_deps{background-image: url(imgs/depto-s.jpg);}
+			#img_cochs{background-image: url(imgs/cochera-s.jpg);}
+			#img_local{background-image: url(imgs/local-s.jpg);}
+
+#ubicacion{
+	background:palevioletred;
+	padding: 50px 20px;
+}
+	.divs_ubicacion{
+		width:96%;
+		margin: 20px auto;
 	}
-		#deps{background-image: url(imgs/depto-s.jpg);}
-		#cochs{background-image: url(imgs/cochera-s.jpg);}
-		#local{background-image: url(imgs/local-s.jpg);}
+	#mapa{}
+	#distancias{}
 
-#ubicacion{background: palevioletred;}
-	#mapa{width:100%;}
-	#distancias{width:96%;margin:auto}
+#pie{
+	background:orange;
 
-#pie{background:orange;}
+}
 
 
 
