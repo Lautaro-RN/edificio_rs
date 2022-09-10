@@ -12,66 +12,77 @@ header, section, footer {
 	margin: auto;
 }
 
-.padding{padding:50px 5%;}
+.sec_padding{padding:4rem 2rem;}
 	
 #header {
-height: 126px;
-background-color: orangered;
+	height: 106px;
+	/*background-color: orangered;*/
 }
 	#img_logo {
-		height: 100px;
+		height:5rem;
 		float: left;
 		background-color: rgba(225, 0, 0, 1.0);
 	}
+	#nav_btn_size{
+		height:5rem;
+		width:5rem;
+	}
+		#nav_btn_spans{width:3rem;}
 
-#nosotros{background: darkseagreen;}	
-	#fotos_entrada{}
+#nosotros{background:darkseagreen;}	
+	#mark_sty{/*background: green;*/
+		font-weight:bold;
+		font-size:40px;
+		text-align:center;
+		margin-bottom:3rem;
+	}
+	#fotos_entrada{/*background:lightgreen;*/}
 		.sty_img_box{
-			width: 300px;
-			height: 300px;
-			margin: 25px auto;
+			max-width:96%;
+			height:22rem;
+			margin:1rem auto 0;
 		}
 			.img_pres{}
 				#img1{
-					background:darkseagreen;
+					/*background:darkseagreen;*/
 					background-image: url(imgs/foto1_s.jpg);
 				}
 				#img2{
-					background:darkseagreen;
+					/*background:darkseagreen;*/
 					background-image: url(imgs/foto2_s.jpg)
 				}
 			#txt_present{
-				background-color:darkseagreen;
-				padding:10%;
-				margin-bottom:0px;
-			}
+				margin-top: 3rem;
+				/*background-color:darkblue;*/}
 
-#servicios{background:greenyellow;}
-	#deps{margin: 20px auto;}
-	#cochs{margin: 0px auto 20px;}
-	#local{margin: 20px auto;}
+#servicios{background:yellow;}
+	#deps{margin: 2rem auto;}
+	#cochs{margin: 0 auto 2rem;}
+	#local{margin: 2rem auto 0;}
 		.img_servicios{
-	    background-color: dimgrey;
-	    height:240px;
+	    /*background: dimgrey;*/
+	    height:15rem;
+	    margin-top: 1rem;
 		}
 			#img_deps{background-image: url(imgs/depto-s.jpg);}
 			#img_cochs{background-image: url(imgs/cochera-s.jpg);}
 			#img_local{background-image: url(imgs/local-s.jpg);}
 
-#ubicacion{
-	background:palevioletred;
-	padding: 50px 20px;
-}
+#ubicacion{background:palevioletred;}
 	.divs_ubicacion{
-		width:96%;
-		margin: 20px auto;
+		margin: 2rem auto;
 	}
-	#mapa{}
-	#distancias{}
+	#mapa{
+		/*background:purple;*/
+		min-width: 16rem;
+	}#div_frame_mapa{text-align: center;}
+		#frame_mapa{
+			min-width: 18rem;
+		}
+	#distancias{/*background:mediumpurple;*/}
 
 #pie{
 	background:orange;
-
 }
 
 
