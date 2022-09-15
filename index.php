@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Edificio 0.7</title>
+	<title>Edificio 0.8</title>
 	<meta charset="utf-8"><!--meta name viewport-->
 	<link href="styles.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap" rel="stylesheet"><!-- Bootstrap (CSS only) --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,18 +27,18 @@
 	</section>
 
 	<section id="servicios"class="sec_padding"><h2>Servicios</h2>
-		<div id="deps">
+		<div id="deps"><a href="pags/deps.php">
 			<div><h3>Departamentos</h3></div>
 			<div id="img_deps" class="img_servicios"></div>
-		</div>
-		<div id="cochs">
+		</a></div>
+		<div id="cochs"><a href="pags/coch.php">
 			<div><h3>Cocheras</h3></div>
 			<div id="img_cochs" class="img_servicios"></div>
-		</div>
-		<div id="local">
+		</a></div>
+		<div id="local"><a href="pags/local.php">
 			<div><h3>Local</h3></div>
 			<div id="img_local" class="img_servicios"></div>
-		</div>
+		</a></div>
 	</section>
 
 	<section id="ubicacion"class="sec_padding"><h2>Donde estamos</h2>
@@ -51,13 +51,17 @@
  		</div>
 	</section>
 
-	<footer id="pie">
-		<h2>Contactanos</h2>
-		<div>
-			<div><h3>Teléfono fijo</h3><h3>+54 0294 000 0000</h3></div>
-			<div><h3>Teléfono móvil</h3><h3>+54 294 (15) 111 1111</h3></div>
-			<div><h3>Correo electrónico</h3><h3>ejemplo@servidor.com</h3></div>
+	<section id="contacto" class="sec_padding">
+		<h2 id="tit_contacto" class="txt_center">Contactanos</h2>
+		<div class="row div_center">
+			<div class="col-lg-4 div_contacto"><h3 class="h5 txt_center">Teléfono fijo</h3><h3 class="txt_center">+54 0294 000 0000</h3></div>
+			<div class="col-lg-4 div_contacto"><h3 class="h5 txt_center">Teléfono móvil</h3><h3 class="txt_center">+54 294 (15) 111 1111</h3></div>
+			<div class="col-lg-4 div_contacto"><h3 class="h5 txt_center">Correo electrónico</h3><h3 class="text- txt_center">ejemplo@servidor.com</h3></div>
 		</div>
+	</section>
+
+	<footer id="pie">
+		<div class="txt_center">Hecho por Lautaro-RN, 2022</div>
 	</footer>
 
 </body>
